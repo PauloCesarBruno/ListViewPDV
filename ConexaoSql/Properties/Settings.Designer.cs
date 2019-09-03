@@ -26,7 +26,7 @@ namespace ConexaoSql.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-000NHHJV;Initial Catalog=PDV;User ID=Sa;Password=Paradoxo22")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-OT96ST84;Initial Catalog=PDV;User ID=Sa;Password=Paradoxo22")]
         public string String {
             get {
                 return ((string)(this["String"]));
