@@ -21,7 +21,7 @@ using ConexaoSql;
 
 namespace Estudo_ListView_Estilo_PDV
 {
-    public partial class frmPDV : 
+    public partial class frmPDV : Form
     {
         Decimal total; // Variavel (Global) de controle do total da TexeBox (txtCodigo)....
         Controle_Atributos ca = new Controle_Atributos();
