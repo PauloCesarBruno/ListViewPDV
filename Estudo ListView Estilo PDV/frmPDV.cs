@@ -23,7 +23,8 @@ namespace Estudo_ListView_Estilo_PDV
 {
     public partial class frmPDV : Form
     {
-        Decimal total; // Variavel (Global) de controle do total da TexeBox (txtCodigo)....
+        Decimal total; // Variavel (Global)
+        // de controle do total da TexeBox (txtCodigo)....
         Controle_Atributos ca = new Controle_Atributos();
 
         public frmPDV()
