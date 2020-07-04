@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPDV));
             this.lblCodigo = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
@@ -75,6 +76,9 @@
             this.lblCxLivre = new System.Windows.Forms.Label();
             this.lblSomatorio2 = new System.Windows.Forms.Label();
             this.lblSubTotal = new System.Windows.Forms.Label();
+            this.PDVDataSet = new Estudo_ListView_Estilo_PDV.PDVDataSet();
+            this.tbl_ProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tbl_ProdutosTableAdapter = new Estudo_ListView_Estilo_PDV.PDVDataSetTableAdapters.tbl_ProdutosTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             this.panel2.SuspendLayout();
@@ -82,6 +86,8 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelCxLivre.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PDVDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_ProdutosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lblCodigo
@@ -555,6 +561,20 @@
             this.lblSubTotal.TabIndex = 123;
             this.lblSubTotal.Text = "SubTotal:";
             // 
+            // PDVDataSet
+            // 
+            this.PDVDataSet.DataSetName = "PDVDataSet";
+            this.PDVDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tbl_ProdutosBindingSource
+            // 
+            this.tbl_ProdutosBindingSource.DataMember = "tbl_Produtos";
+            this.tbl_ProdutosBindingSource.DataSource = this.PDVDataSet;
+            // 
+            // tbl_ProdutosTableAdapter
+            // 
+            this.tbl_ProdutosTableAdapter.ClearBeforeFill = true;
+            // 
             // frmPDV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -613,6 +633,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelCxLivre.ResumeLayout(false);
             this.panelCxLivre.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PDVDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_ProdutosBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -666,6 +688,9 @@
         private System.Windows.Forms.Label lblCxLivre;
         private System.Windows.Forms.Label lblSomatorio2;
         private System.Windows.Forms.Label lblSubTotal;
+        private System.Windows.Forms.BindingSource tbl_ProdutosBindingSource;
+        private PDVDataSet PDVDataSet;
+        private PDVDataSetTableAdapters.tbl_ProdutosTableAdapter tbl_ProdutosTableAdapter;
     }
 }
 
