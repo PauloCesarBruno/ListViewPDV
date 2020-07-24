@@ -375,9 +375,7 @@ namespace Estudo_ListView_Estilo_PDV
             {
                 btnDeletaItem.Enabled = true;
                 btnFecharConta.Enabled = true;
-            }
-
-            this.reportViewer1.RefreshReport();
+            }                       
         }
     }
 }
