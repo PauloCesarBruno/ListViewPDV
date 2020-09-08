@@ -79,7 +79,6 @@
             this.PDVDataSet = new Estudo_ListView_Estilo_PDV.PDVDataSet();
             this.tbl_ProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbl_ProdutosTableAdapter = new Estudo_ListView_Estilo_PDV.PDVDataSetTableAdapters.tbl_ProdutosTableAdapter();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             this.panel2.SuspendLayout();
@@ -576,21 +575,12 @@
             // 
             this.tbl_ProdutosTableAdapter.ClearBeforeFill = true;
             // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Location = new System.Drawing.Point(471, 283);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
-            this.reportViewer1.TabIndex = 124;
-            // 
             // frmPDV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1058, 656);
-            this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.lblSubTotal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSomatorio2);
@@ -701,7 +691,6 @@
         private System.Windows.Forms.BindingSource tbl_ProdutosBindingSource;
         private PDVDataSet PDVDataSet;
         private PDVDataSetTableAdapters.tbl_ProdutosTableAdapter tbl_ProdutosTableAdapter;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
 
