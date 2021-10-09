@@ -21,6 +21,7 @@ namespace Estudo_ListView_Estilo_PDV
         private void frmMoney_Load(object sender, EventArgs e)
         {
             //
+            this.reportViewer1.RefreshReport();
         }
 
         private void frmMoney_KeyDown(object sender, KeyEventArgs e)
