@@ -26,7 +26,7 @@ namespace Estudo_ListView_Estilo_PDV.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HOME;Initial Catalog=PDV;User ID=sa;Password=Paradoxo22")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-K63Q18Q;Initial Catalog=PDV;User ID=sa;Password=Paradoxo22")]
         public string String {
             get {
                 return ((string)(this["String"]));
